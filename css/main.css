@@ -1,5 +1,5 @@
 .container {
-  margin: 0, auto;
+  margin: 0 auto;
   max-width: 1170px;
 }
 
@@ -10,9 +10,11 @@ section {
 .flex {
   display: flex;
 }
+
 .flex-column {
   flex-direction: column;
 }
+
 .flex-one {
   flex: 1;
 }
@@ -37,22 +39,20 @@ section {
 
 .btn-default {
   color: #ffffff;
-  background: #faa541;
+  background-color: #faa541;
 }
 
 .btn-primary {
   color: #ffffff;
-  background: #364147;
+  background-color: #364147;
 }
 
 .form-control {
   display: block;
   padding: 6px 12px;
-  border: 1px;
-  border-color: #a0a0a0;
-  border-style: solid;
-  color: #8598a2;
   line-height: 1.4;
+  color: #8598a2;
+  border: 1px solid #a0a0a0;
 }
 
 .text-light {
